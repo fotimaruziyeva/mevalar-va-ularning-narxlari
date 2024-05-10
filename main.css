@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  #mevalar-form {
+    margin-bottom: 20px;
+  }
+  #mevalar-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  #mevalar-table th, #mevalar-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  #mevalar-table th {
+    background-color: #f2f2f2;
+  }

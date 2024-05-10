@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mevalar va Ular Narxlari</title>
+<link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<h2>Mevalar va Ular Narxlari</h2>
+
+<form id="mevalar-form">
+  <label for="meva-nom">Meva Nomi:</label> <br>
+  <input type="text" id="meva-nom" required> <br> <br>
+  <label for="meva-narx">Meva Narxi ($):</label> <br>
+  <input type="number" id="meva-narx" required> <br> <br> <br>
+  <button type="submit" style=" width:150px;padding: 10px; background-color:green; border-radius:20px;color:white; font-size:20px;">Qo'shish</button>
+</form>
+
+
+<table id="mevalar-table">
+  <thead>
+    <tr>
+      <th>Mevalar</th>
+      <th>Narxlar ($)</th>
+    </tr>
+  </thead>
+  <tbody id="mevalar-list">
+     Bu  yerda sizning tanlagan mahsulotlaringiz royhati qo'shiladi:
+  </tbody>
+</table>
+
+<script src="main.js"></script>
+
+</body>
+</html>
